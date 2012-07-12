@@ -1,0 +1,17 @@
+{
+  "name": "callgrind.js",
+  "version": "0.0.0",
+  "bin": {
+    "callgrind.js": "./bin/callgrind.js"
+  },
+  "main": "lib/callgrind",
+  "dependencies": {
+    "optimist": "~0.3.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.3.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js"
+  }
+}
