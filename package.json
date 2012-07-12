@@ -1,6 +1,6 @@
 {
   "name": "callgrind.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": {
     "callgrind.js": "./bin/callgrind.js"
   },
@@ -13,5 +13,9 @@
   },
   "scripts": {
     "test": "mocha --reporter spec test/*-test.js"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
   }
 }
